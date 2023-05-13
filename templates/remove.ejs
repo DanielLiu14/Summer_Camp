@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Admin GPA</title>
+
+    <script>
+        function confirmSubmit() {
+            return confirm("Are you sure you want to remove all applications?");
+        }
+    </script>
+</head>
+
+<body>
+	<h1>Removing All Applicants</h1>
+    
+    <%- form %>
+		<input type="submit" value="Remove all applicants"/>
+        <hr>
+	</form>
+
+    <a href="/">HOME</a>
+</body>
+
+</html>
